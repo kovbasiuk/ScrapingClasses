@@ -47,13 +47,7 @@ public class CombinedSearch {
 				"/Users/robertkovbasiuk/Desktop/Uni Projects/client stuff/src/northumberland-project.json"));
 		//List <String> l = Arrays.asList(new String[]{"ff","dd",null,"hello"});
 		
-//		
-//		//String jsonString = FileUtils. readFileToString(File, Charset)
-//		JSONObject rootObj = (JSONObject) jsonArray.get(0);
-//		System.out.println(rootObj.get("Name"));
-		
-		//rootObj.put("Description1", "test");
-		
+
 		//initialises settings and objects needed
 		System.setProperty("webdriver.chrome.driver", "/Users/robertkovbasiuk/coding stuff/chromedriver");
 		SeleniumClicker sc = new SeleniumClicker();
