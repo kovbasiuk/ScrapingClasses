@@ -18,15 +18,17 @@ import java.util.stream.Collectors;
 public class WikiSearch {
 
 	public static void main(String[] args) throws MalformedURLException, IOException {
+		//individual tests
 		WikiSearch ws = new WikiSearch();
 		ws.getInfo("All Saints' Church, Newcastle upon Tyne");
 		ws.getInfo("bamburgh castle");
 		ws.getInfo("alnwick castle");
 		ws.getInfo("dwfwe");
 	}
-
+//needed in case errors come up
 	int getUrlTryCount = 0;
 
+	//find the search information text
 	public String getInfo(String searchKey1) throws MalformedURLException, IOException {
 
 		String searchKey = searchKey1.toLowerCase();
@@ -99,7 +101,7 @@ public class WikiSearch {
 		}
 	}
 
-	//gets url, explained in the combined search class
+	//method to get the correct url, if conditions arent met then returns null
 	public String getUrl(String url, String[] searchKeyPart, boolean oneWord, String searchKey, String searchText,
 			String encoding, int sitePick) {
 
