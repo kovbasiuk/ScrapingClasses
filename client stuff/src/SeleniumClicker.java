@@ -41,7 +41,7 @@ public class SeleniumClicker {
 	int getUrlTryCount = 0;
 
 
-	//
+	//find the search information text
 	public String getInfo(String searchKey1, WebDriver driver)
 			throws UnsupportedEncodingException, IOException, InterruptedException {
 	
