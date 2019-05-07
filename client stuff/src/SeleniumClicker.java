@@ -78,7 +78,7 @@ public class SeleniumClicker {
 
 	}
 
-	
+	//method to get the correct url, if conditions arent met then returns null
 	public String getUrl(WebDriver driver, String url, String[] searchKeyPart, boolean oneWord, String searchKey,
 			String searchText, String encoding, int sitePick) {
 
